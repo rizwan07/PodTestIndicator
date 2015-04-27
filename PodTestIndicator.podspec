@@ -10,18 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "PodTestIndicator"
   s.version          = "0.1.0"
-  s.summary          = "A short description of PodTestIndicator."
+  s.summary          = "A text pod of PodTestIndicator."
   s.description      = <<-DESC
-                       An optional longer description of PodTestIndicator
+                       pod added just for testing of PodTestIndicator
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PodTestIndicator"
+  s.homepage         = "https://github.com/rizwan07/PodTestIndicator"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Rizwan" => "muhammad.rizwan@salsoft.net" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PodTestIndicator.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/rizwan07/PodTestIndicator.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -33,6 +33,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
